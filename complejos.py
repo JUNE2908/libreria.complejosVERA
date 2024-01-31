@@ -37,9 +37,9 @@ def fasec(c):
     fase = math.atan(x)
     return (fase)
 
-def geomcplx(c):
+def geomc(c):
     p = moducplx(c)
     ang = fasecplx(c)
-    part_real = p * math.cos(ang)
-    part_img = p * math.sin(ang)
-    return (part_real,part_img)
+    geo1 = p * math.cos(ang)
+    geo2 = p * math.sin(ang)
+    return (geo1,geo2)
