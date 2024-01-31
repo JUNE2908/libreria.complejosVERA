@@ -15,8 +15,8 @@ def restc(c1,c2):
     return (rest1,rest2)
 
 def divic(c1,c2):
-    numer = multicplx(c1,(c2[0],-c2[1]))
-    denom = multicplx(c2,(c2[0],-c2[1]))
+    numer = multic(c1,(c2[0],-c2[1]))
+    denom = multic(c2,(c2[0],-c2[1]))
     divi1 = numer[0]/denom[0]
     divi2 = numer[1]/denom[0]
     return (divi1,divi2)
