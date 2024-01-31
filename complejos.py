@@ -38,8 +38,8 @@ def fasec(c):
     return (fase)
 
 def geomc(c):
-    p = moducplx(c)
-    ang = fasecplx(c)
+    p = moduc(c)
+    ang = fasec(c)
     geo1 = p * math.cos(ang)
     geo2 = p * math.sin(ang)
     return (geo1,geo2)
